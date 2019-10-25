@@ -7,15 +7,13 @@
 # SDK LIBRARY
 # -----------
 LIB_NAME = SENSIT_SDK_V2.0.0
-LIB_PATH = lib
-
+LIB_PATH = C:/Users/pauld/Desktop/HEI/TPreseau/hei-2019-2020-lab-sens-it-perroquin-jourdan/sensit-sdk-v2.0.0/sdk/lib
 
 # --------------
 # OUTPUT FOLDERS
 # --------------
-BIN_PATH = bin
-OBJ_PATH = obj
-
+BIN_PATH = C:/Users/pauld/Desktop/HEI/TPreseau/hei-2019-2020-lab-sens-it-perroquin-jourdan/sensit-sdk-v2.0.0/sdk/bin
+OBJ_PATH = C:/Users/pauld/Desktop/HEI/TPreseau/hei-2019-2020-lab-sens-it-perroquin-jourdan/sensit-sdk-v2.0.0/sdk/obj
 
 # ------------
 # OUTPUT FILES
@@ -30,10 +28,9 @@ SIZE_OUTPUT = $(OUTPUT_NAME).siz
 # ---------
 # TOOLCHAIN
 # ---------
-CC = arm-none-eabi-gcc
-BIN_TOOL  = arm-none-eabi-objcopy
-SIZE_TOOL = arm-none-eabi-size
-
+CC = C:/Users/pauld/Desktop/HEI/TPreseau/8-2019-q3-update/bin/arm-none-eabi-gcc
+BIN_TOOL  = C:/Users/pauld/Desktop/HEI/TPreseau/8-2019-q3-update/bin/arm-none-eabi-objcopy
+SIZE_TOOL = C:/Users/pauld/Desktop/HEI/TPreseau/8-2019-q3-update/bin/arm-none-eabi-size
 
 # -------------------
 # COMPILATION OPTIONS
@@ -190,4 +187,4 @@ dir:
 
 # Rule for USB flashing using dfu file manager (vendor id 0483)
 prog:
-	dfu-util -a 0 -s 0x08000000:leave -D $(BIN_PATH)/$(BIN_OUTPUT)
+	C:/Users/pauld/Desktop/HEI/TPreseau/dfu-util-0.9-win64/dfu-util.exe -a 0 -s 0x08000000:leave -D $(BIN_PATH)/$(BIN_OUTPUT)
