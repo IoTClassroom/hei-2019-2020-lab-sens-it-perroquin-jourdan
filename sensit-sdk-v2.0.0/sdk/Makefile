@@ -13,8 +13,9 @@ LIB_PATH = lib
 # --------------
 # OUTPUT FOLDERS
 # --------------
-BIN_PATH = bin
-OBJ_PATH = obj
+LIB_PATH = C:/Users/pauld/Desktop/HEI/H4_by_pol/Programmation_embarqué/hei-2019-2020-lab-sens-it-perroquin-jourdan/sensit-sdk-v2.0.0/sdk/lib
+BIN_PATH = C:/Users/pauld/Desktop/HEI/H4_by_pol/Programmation_embarqué/hei-2019-2020-lab-sens-it-perroquin-jourdan/sensit-sdk-v2.0.0/sdk/bin
+OBJ_PATH = C:/Users/pauld/Desktop/HEI/H4_by_pol/Programmation_embarqué/hei-2019-2020-lab-sens-it-perroquin-jourdan/sensit-sdk-v2.0.0/sdk/obj
 
 
 # ------------
@@ -30,9 +31,9 @@ SIZE_OUTPUT = $(OUTPUT_NAME).siz
 # ---------
 # TOOLCHAIN
 # ---------
-CC = arm-none-eabi-gcc
-BIN_TOOL  = arm-none-eabi-objcopy
-SIZE_TOOL = arm-none-eabi-size
+CC = C:/Users/pauld/Desktop/HEI/H4_by_pol/Programmation_embarqué/9_2019-q4-major/bin/arm-none-eabi-gcc
+BIN_TOOL  = C:/Users/pauld/Desktop/HEI/H4_by_pol/Programmation_embarqué/9_2019-q4-major/bin/arm-none-eabi-objcopy
+SIZE_TOOL = C:/Users/pauld/Desktop/HEI/H4_by_pol/Programmation_embarqué/9_2019-q4-major/bin/arm-none-eabi-size
 
 
 # -------------------
